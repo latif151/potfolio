@@ -1,0 +1,42 @@
+/* code general */
+/* appliquer du dtyle pour le contenu avec * */
+*{
+
+}
+body{
+    margin:0;
+    padding: 0;
+}
+/* nav bar */
+.navbar{
+    background-color:black !important ;
+}
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar ul li a.active{
+    color: var(--primaryColor) !important;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: var(--primaryColor);
+}
+.navbar ul li.dropdown ul {
+    background-color: black;
+}
+.navbar ul li.dropdown ul li:hover{
+    display: inline-table;
+}
+
+.banner{
+    height: 500px;
+    background: url(images/hero-bg.jpg)no-repeat center/cover fixed;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
