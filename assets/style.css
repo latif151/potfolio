@@ -3,6 +3,10 @@
 *{
 
 }
+/* declarationn de variable */
+:root{
+    --primaryColor: #076CDD;
+}
 body{
     margin:0;
     padding: 0;
@@ -13,8 +17,8 @@ body{
 }
 .navbar ul li a{
     color: white;
-    text-transform: uppercase;
-    font-size: 14px;
+    text-transform: uppercase;/* mettre le texte en majiscule */
+    font-size: 14px;/* mettre la taille du texte */
 }
 .navbar ul li a.active{
     color: var(--primaryColor) !important;
@@ -22,12 +26,13 @@ body{
 }
 .navbar ul li a:hover{
     color: var(--primaryColor);
+    border-bottom: 2px solid #eee;
 }
 .navbar ul li.dropdown ul {
     background-color: black;
 }
 .navbar ul li.dropdown ul li:hover{
-    display: inline-table;
+    display: inline-block;
 }
 
 .banner{
@@ -39,4 +44,49 @@ body{
     align-items: center;
     justify-content: center;
 
+}
+/* section about */
+#about .progress{
+    height: 10px  !important;
+}
+#about .h3{
+    margin: 0;
+}
+#about .trai{
+    height: 5px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+#about .about p{
+    font-size: 10px;
+}
+/* service */
+#services .trai{
+    height: 5px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+#services .boite-icon .bi{
+    font-size: 30px;
+}
+
+#services .boite-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 8px solid #076CDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+#services .card:hover .boite-icon{
+    background-color: #076CDD;
+    border-color: rgb(207, 207, 228);
+}
+
+#services .card:hover .bi{
+    color: white;
 }

@@ -2,72 +2,203 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <!-- header -->
-    <header>
-        <!-- menu de navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">A propos</a>
-                  </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Travaux</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  
+ <!-- header -->
+   <header>
+
+    <!--  menu de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">mon Portofolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">travaux</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-               
-              </div>
-            </div>
-          </nav>
-          <!-- bannière -->
-          <div class="banner">
-            <div>
-              <h3>cabinet Dtech group</h3>
-            <p>je suis PINDRA albert developpeur web</p>
-            </div>
+              </li>
+              
+            </ul>
+          
           </div>
+        </div>
+      </nav>
+<!-- bannière -->
+ <div class="banner">
+    <div>
+        <h3> I am PINDRA Albert</h3>
+    <P> développeur D'application</P>
 
-
-    </header>
+    </div>
+ </div>
+ </header>
+ 
+ <!-- section about -->
+ <section id="about" class="container my-5">
+  <div class="card shadow border-0 p-4">
+    <div class="row g-4">
+      <!-- information -->
+      <div class="col-md-6">
+        <div class="row g-5">
+          <!-- profile -->
+          <div class="col-md-4">
+            <img src="assets/images/testimonial-2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8">
+            <p><b>Nom:</b>PINDRA</p>
+            <p><b>Profile:</b>web developpeur</p>
+            <p><b>Email:</b> <a href="mailto:>albertpindra@iclou.com">albertpindra@iclou.com</a></p>
+            <p><b>Phone:</b><a href="tel:+22896442474">+22896442474</a></p>
+          </div>
+        </div>
+        <!-- compétence -->
+        <h4 class="my-5">compétence</h4>
+        <h6 for="">hltm
+          <span class="float-end">100%</span>
+        </h6>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 100%"></div>
+        </div>
+        <h6 for="">css
+          <span class="float-end">65%</span>
+        </h6>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 65%"></div>
+        </div>
+        <h6 for="">flutter
+          <span class="float-end">55%</span>
+        </h6>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 55%"></div>
+        </div>
+ 
+      </div>
+      <!-- à propos -->
+      <div class="col-md-6 about">
+        <h3 class="text-uppercase fw-bold">à propos</h3>
+        <div class="trai bg-primary"></div>
+        <p>Curabitur n'est pas le meilleur moment pour les joueurs qui ont lu le livre. C'était une architrave, c'était une couche de financement et, en même temps, la compagnie aérienne. C'est une messe sage, la vallée n'est même pas pour les enfants, c'est seulement nécessaire. Il n’y a pas de promoteur de compagnies aériennes.</p>
+        <p>Mauris flatte l'élite, a besoin du tincidunt nibh pulvinar a. Vivamus suscepti tortor eget felis porttitor volutpat. Le bâtiment et la cour sont plus importants que l’élément véhicule, mais ils sont importants pour le propriétaire. ferry en mer</p>
+        <p>Il n’y a pas de promoteur de compagnies aériennes. Tout le monde veut sauf que le prix soit en lacinia, pour cet élément. Il n’y a pas de promoteur de compagnies aériennes. Mauris flatte l'élite, a besoin du tincidunt nibh pulvinar a.</p>
+      </div>
+    </div>
+  </div>
+ </section>
+  <!-- services -->
+  <section class="container my-5" id="services">
+    <div class="text-center mb-4">
+      <h3 class="text-uppercase fw-bold">services</h3>
+      <p>lorem ipsum dolor sit,amet consectetur adipisicing</p>
+      <div class="trail bg-primary"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4 col-sm-6">
+       <a href="" class="text-decoration-none">
+        <div class="card border-0 shadow p-5 text-center">
+          <div class="boite-icon">
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <h4>web designer</h4>
+          <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+        </div>
+       </a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <a href="" class="text-decoration-none">
+         <div class="card border-0 shadow p-5 text-center">
+           <div class="boite-icon">
+             <i class="bi bi-briefcase"></i>
+           </div>
+           <h4>web designer</h4>
+           <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+         </div>
+        </a>
+       </div>
+       <div class="col-md-4 col-sm-6">
+        <a href="" class="text-decoration-none">
+         <div class="card border-0 shadow p-5 text-center">
+           <div class="boite-icon">
+             <i class="bi bi-briefcase"></i>
+           </div>
+           <h4>web designer</h4>
+           <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+         </div>
+        </a>
+       </div>
+       <div class="col-md-4 col-sm-6">
+        <a href="" class="text-decoration-none">
+         <div class="card border-0 shadow p-5 text-center">
+           <div class="boite-icon">
+             <i class="bi bi-briefcase"></i>
+           </div>
+           <h4>web designer</h4>
+           <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+         </div>
+        </a>
+       </div>
+       <div class="col-md-4 col-sm-6">
+        <a href="" class="text-decoration-none">
+         <div class="card border-0 shadow p-5 text-center">
+           <div class="boite-icon">
+             <i class="bi bi-briefcase"></i>
+           </div>
+           <h4>web designer</h4>
+           <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+         </div>
+        </a>
+       </div>
+       <div class="col-md-4 col-sm-6">
+        <a href="" class="text-decoration-none">
+         <div class="card border-0 shadow p-5 text-center">
+           <div class="boite-icon">
+             <i class="bi bi-briefcase"></i>
+           </div>
+           <h4>web designer</h4>
+           <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+         </div>
+        </a>
+       </div>
+    </div>
     
+  </section>
 
 
-    <script src="assets/bootstrap.min.js"></script>
+
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
